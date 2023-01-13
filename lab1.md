@@ -57,7 +57,7 @@ Some basic/common commands to try:
 - **ls** - will list all files that are in your directory
 - **cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/** - will copy the file from the directory or file path that is indicated into my home directory
 - **cat /home/linux/ieng6/cs15lwi23/public/hello.txt** - read out or print to the screen the text that is located within a particular text file
-- **mkdir** <dir name> - will create a directory within your current directory
+- **mkdir** [dir name] - will create a directory within your current directory
 
 For example, after running some of the above commands, you may get an output like this:
   
