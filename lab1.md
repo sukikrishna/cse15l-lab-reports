@@ -19,6 +19,7 @@ b) Follow these instructions in order to open and set the installed **git bash**
 
 Your terminal on VScode should looking like this: on the top-right there is a tab that will say bash on it if the git bash terminal is open.
 <img width="918" alt="image" src="https://user-images.githubusercontent.com/85651103/212225745-bf61ae91-b394-454d-9c3a-4ab787a2de10.png">
+
 2. Log into to this website in order to access the student remote server account: https://sdacs.ucsd.edu/~icc/index.php
 
 Once logged in, you should reach a page like this: Your course-specific account name resides in the bolded box ('cs15lwi23zz' with 'zz' being the letters in your course-specific account.)
@@ -49,18 +50,18 @@ You should see something like this if successfully logged into the remote server
 ## Trying Some Commands
 Here are some commands to test out and experiment with after you have connected your terminal to your remote server.
 Some basic/common commands to try:
-* ==cd== OR ==cd ~== - changes the directory you are in
-* ==ls== - will list all files that are in your directory
-* ==cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/== - will copy the file from the directory or file path that is indicated into my home directory
-* ==cat /home/linux/ieng6/cs15lwi23/public/hello.txt== - read out or print to the screen the text that is located within a particular text file
-* ==mkdir <dir name>== - will create a directory within your current directory
+* == cd == OR == cd ~ == - changes the directory you are in
+* == ls == - will list all files that are in your directory
+* == cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ == - will copy the file from the directory or file path that is indicated into my home directory
+* == cat /home/linux/ieng6/cs15lwi23/public/hello.txt == - read out or print to the screen the text that is located within a particular text file
+* == mkdir <dir name> == - will create a directory within your current directory
 
 For example, after running some of the above commands, you may get an output like this:
   <img width="445" alt="image" src="https://user-images.githubusercontent.com/85651103/212229842-716ec266-e455-448a-b8c0-93fd0c104a5d.png">
 
 In order to log out of the remote server you can
 1. Run Ctrl-D command
-2. Run ==exit== on terminal
+2. Run == exit == on terminal
   
   
 This is the end of this tutorial! I hope that it helped you to log into your course-specific account and test out some commands on your terminal!
