@@ -26,13 +26,13 @@ Once logged in, you should reach a page like this: Your course-specific account 
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/85651103/212226340-f9afe89e-3bf4-49d4-9715-c8be4c2d8115.png">
 
 3. In the opened terminal on VScode, use the ssh command to connect to remote server.
-== $ ssh cs15lwi23zz@ieng6.ucsd.edu ==
+**$ ssh cs15lwi23zz@ieng6.ucsd.edu**
 
 If it's the first time connecting to the server, there may come a message as so:
-== ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
+**⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? ==
+Are you sure you want to continue connecting (yes/no/[fingerprint])?**
 
 Type yes and press enter
 
@@ -50,18 +50,18 @@ You should see something like this if successfully logged into the remote server
 ## Trying Some Commands
 Here are some commands to test out and experiment with after you have connected your terminal to your remote server.
 Some basic/common commands to try:
-* == cd == OR == cd ~ == - changes the directory you are in
-* == ls == - will list all files that are in your directory
-* == cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ == - will copy the file from the directory or file path that is indicated into my home directory
-* == cat /home/linux/ieng6/cs15lwi23/public/hello.txt == - read out or print to the screen the text that is located within a particular text file
-* == mkdir <dir name> == - will create a directory within your current directory
+- cd OR cd ~ - changes the directory you are in
+- ls - will list all files that are in your directory
+- cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ - will copy the file from the directory or file path that is indicated into my home directory
+- cat /home/linux/ieng6/cs15lwi23/public/hello.txt - read out or print to the screen the text that is located within a particular text file
+- **mkdir <dir name>** - will create a directory within your current directory
 
 For example, after running some of the above commands, you may get an output like this:
   <img width="445" alt="image" src="https://user-images.githubusercontent.com/85651103/212229842-716ec266-e455-448a-b8c0-93fd0c104a5d.png">
 
 In order to log out of the remote server you can
 1. Run Ctrl-D command
-2. Run == exit == on terminal
+2. Run **exit** on terminal
   
   
 This is the end of this tutorial! I hope that it helped you to log into your course-specific account and test out some commands on your terminal!
